@@ -25,10 +25,6 @@ const Signup = () => {
 //     name: "시훈입니다",
 //   });
   frm.append("signupRequest", new Blob([JSON.stringify(params)], {type: "application/json"}))
-  const onSubmit = (data) => {
-    console.log(data.name);
-  };
-
   const onSubmit = async (data) => {
     await axios
       .post(
