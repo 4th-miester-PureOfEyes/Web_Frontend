@@ -16,7 +16,7 @@ function Login(){
             email:email,
             password:password
         }; 
-        axios.post("https://port-0-server-3vw25lc9t3b00.gksl2.cloudtype.app/auth",body)
+        axios.post("https://port-0-server-3vw25lc9t3b00.gksl2.cloudtype.app/",body)
         .then((res)=>{
             console.log(res.data);
         })
