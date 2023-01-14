@@ -7,6 +7,10 @@ export const Header = () => {
     return(
         <>
         <_.HeaderContainer>
+            <_.MainLogo>
+                <_.LogoImg src={MainLogo}/>    
+            </_.MainLogo>
+            
             <_.HeaderIn>
                 <_.HeaderInTop>
                     <_.SearchWrap></_.SearchWrap>
