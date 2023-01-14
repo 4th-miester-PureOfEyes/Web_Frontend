@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export const HeaderContainer = styled.div`
     width: 100%;
     height: 150px;
+    display: flex;
     /* background-color: orange; */
 `;
 
@@ -84,3 +85,16 @@ export const NavMenuText = styled(Link)`
         color: #EA7589;
     }
 `
+
+export const MainLogo = styled.div`
+    width: 100px;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-left: 100px;
+`;
+
+export const LogoImg = styled.img`
+    margin-top: 30px; 
+    width: 200px;
+    height: 100px;
+`;

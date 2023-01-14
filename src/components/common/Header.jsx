@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import * as _ from "./Header.style"
-
-
+import MainLogo from "../../assets/img/logo.svg";
 
 export const Header = () => {
     return(
         <>
         <_.HeaderContainer>
+            <_.MainLogo>
+                <_.LogoImg src={MainLogo}/>    
+            </_.MainLogo>
+            
             <_.HeaderIn>
                 <_.HeaderInTop>
                     <_.SearchWrap></_.SearchWrap>
