@@ -10,6 +10,7 @@ export const Header = () => {
         <_.HeaderContainer>
             <_.HeaderIn>
                 <_.HeaderInTop>
+                    <_.SearchWrap></_.SearchWrap>
                 </_.HeaderInTop>
                 <_.NavContainer>
                         <_.NavMenu>
