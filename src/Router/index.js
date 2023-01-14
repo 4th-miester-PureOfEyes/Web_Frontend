@@ -5,6 +5,7 @@ import SignupPage from "../pages/SignupPage";
 import CategoryPage from "../pages/Category";
 import ChallengePage from "../pages/ChallengePage";
 import CommonBuyPage from "../pages/CommonBuyPage";
+import LoginPage from "../pages/LoginPage";
 
 const Router = () => {
   return (
@@ -15,6 +16,7 @@ const Router = () => {
         <Route path="/category" element={<CategoryPage/>} />
         <Route path="/challenge" element={<ChallengePage/>} />
         <Route path="/commonbuy" element={<CommonBuyPage/>} />
+        <Route path="/login" element={<LoginPage/>} />
       </Routes>
     </BrowserRouter>
   );
