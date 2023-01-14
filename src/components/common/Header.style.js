@@ -20,6 +20,21 @@ export const HeaderInTop = styled.div`
     /* background-color: beige; */
 `;
 
+export const SearchWrap = styled.input`
+    width: 400px;
+    height: 10px;
+    margin: 20px 10px 40px 120px;
+
+    border: none;
+    padding: 20px;
+    background-color: #F8F8F8;
+    border-radius: 70px;
+    font-size: 18px;
+    color: #766D6D;
+
+    outline: none;
+`;
+
 export const NavWrap = styled.div`
     height: 100%;
     display: flex;
