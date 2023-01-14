@@ -10,7 +10,7 @@ const Signup = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
+    console.log(data.name);
   };
 
   const onError = (error) => {
